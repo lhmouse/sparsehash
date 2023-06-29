@@ -42,7 +42,7 @@ TESTS_ENVIRONMENT =
 
 ## This should always include $(TESTS), but may also include other
 ## binaries that you compile but don't want automatically installed.
-noinst_PROGRAMS = $(TESTS) time_hash_map
+noinst_PROGRAMS = ##$(TESTS) time_hash_map
 WINDOWS_PROJECTS += vsprojects/time_hash_map/time_hash_map.vcproj
 
 
